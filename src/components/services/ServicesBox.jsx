@@ -6,37 +6,30 @@ import { MdSecurity } from "react-icons/md";
 
 const Services = [
   {
-    name: "UX research",
+    name: "Doctor Appointment System",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium beatae quidem.",
+      "Doctor Appointment System: A user-friendly platform for booking and managing doctor appointments. Features include patient dashboards, profile management, appointment scheduling, and service listings, built with React, Node.js, Express, and MongoDB for seamless performance.",
     image: "https://picsum.photos/200/300",
     icon: <AiFillLayout className="text-4xl" />,
     bgColor: "bg-blue-500/70",
   },
   {
-    name: "App Development",
+    name: "E-commerce website",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium beatae quidem.",
+      "E-Commerce Website: A dynamic platform for browsing, filtering, and purchasing products. Features include a user dashboard, product search, category filters, cart management, and a wishlist, developed with React, Redux, and TailwindCSS for an engaging shopping experience.",
     image: "https://picsum.photos/200/301",
     icon: <MdOutlinePhoneAndroid className="text-4xl" />,
     bgColor: "bg-lime-500/70",
   },
   {
-    name: "Web App Development",
+    name: "Get Youtube Subscribers",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium beatae quidem.",
+      "Get YouTube Subscriber: A backend application built with Node.js, Express, and MongoDB to manage YouTube channel data and track subscriber counts. Features include API integration, efficient data handling, and scalable architecture for seamless performance.",
     image: "https://picsum.photos/200/302",
     icon: <HiMiniComputerDesktop className="text-4xl" />,
     bgColor: "bg-fuchsia-500/70",
   },
-  {
-    name: "Security",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium beatae quidem.",
-    image: "https://picsum.photos/200/303",
-    icon: <MdSecurity className="text-4xl" />,
-    bgColor: "bg-orange-500/70",
-  },
+ 
 ];
 const ServicesBox = () => {
   return (

@@ -10,14 +10,13 @@ const Hero = () => {
             <div className="space-y-2 grid justify-items-center sm:justify-items-start">
               <p className="uppercase ">Hello</p>
               <p className="text-4xl md:text-6xl font-bold text-black/80 dark:text-white">
-                I'm Michle Smith
+                I'm Nilesh Patil
               </p>
               <p className="text-3xl text-gray-700 dark:text-white">
-                Freelance web & <br /> Full stack Developer
+               Full stack Developer
               </p>
               <p className="text-black/75 dark:text-white/70 text-center sm:text-left">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Molestiae quod accusamus accusantium voluptas autem doloribus?
+              Passionate MERN Stack Developer specializing in building responsive and dynamic web applications. Proficient in crafting efficient frontends with React, robust backends with Node.js and Express, and managing databases with MongoDB. Dedicated to delivering scalable, user-friendly solutions.
               </p>
               <a
                 href="mailto:michle@test.com"
